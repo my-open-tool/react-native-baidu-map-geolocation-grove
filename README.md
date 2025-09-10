@@ -1,4 +1,9 @@
-# react-native-bmap-geolocation
+# react-native-baidu-map-geolocation-grove
+> 重要说明 : 该仓库代码是抄自`react-native-bmap-geolocation`,然后根据目前情况做了微调. 
+> 原作者地址:  https://github.com/zkgaojianjian/react-native-bmap-geolocation
+
+
+
 
 React Native 百度地图定位模块，提供高精度的地理位置服务。
 
@@ -35,9 +40,9 @@ React Native 百度地图定位模块，提供高精度的地理位置服务。
 ## 安装
 
 ```bash
-npm install react-native-bmap-geolocation
+npm install react-native-baidu-map-geolocation-grove
 # 或者
-yarn add react-native-bmap-geolocation
+yarn add react-native-baidu-map-geolocation-grove
 ```
 
 ## 配置
@@ -132,7 +137,7 @@ protected List<ReactPackage> getPackages() {
 1. 在 `ios/Podfile` 中添加：
 
 ```ruby
-pod 'react-native-bmap-geolocation', :path => '../node_modules/react-native-bmap-geolocation'
+pod 'react-native-baidu-map-geolocation-grove', :path => '../node_modules/react-native-baidu-map-geolocation-grove'
 ```
 
 2. 运行 `cd ios && pod install`
@@ -151,7 +156,7 @@ pod 'react-native-bmap-geolocation', :path => '../node_modules/react-native-bmap
 ### 基本用法
 
 ```javascript
-import BMapGeolocation from 'react-native-bmap-geolocation';
+import BMapGeolocation from 'react-native-baidu-map-geolocation-grove';
 
 // 初始化
 await BMapGeolocation.init();
@@ -193,7 +198,7 @@ BMapGeolocation.clearWatch(watchId);
 ### 使用 Hook
 
 ```javascript
-import { useBMapGeolocation } from 'react-native-bmap-geolocation';
+import { useBMapGeolocation } from 'react-native-baidu-map-geolocation-grove';
 
 const MyComponent = () => {
   const { 

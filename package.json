@@ -1,6 +1,6 @@
 {
   "name": "react-native-baidu-map-geolocation-grove",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "React Native Baidu Map Geolocation Module",
   "main": "src/index.js",
   "types": "index.d.ts",
@@ -57,11 +57,11 @@
     "android/",
     "ios/",
     "index.d.ts",
-    "react-native-bmap-geolocation.podspec",
+    "react-native-baidu-map-geolocation-grove.podspec",
     "package.json",
     "README.md",
     "CHANGELOG.md",
     "LICENSE"
   ],
-  "podspec": "ios/react-native-bmap-geolocation.podspec"
+  "podspec": "ios/react-native-baidu-map-geolocation-grove.podspec"
 } 

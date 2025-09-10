@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = package['license']
   s.author       = package['author']
   s.platform     = :ios, "11.0"
-  s.source       = { :git => "https://github.com/zkgaojianjian/react-native-bmap-geolocation.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/my-open-tool/react-native-baidu-map-geolocation-grove.git", :tag => "#{s.version}" }
 
   s.source_files = "*.{h,m}"
   s.requires_arc = true

@@ -1,4 +1,4 @@
-declare module 'react-native-bmap-geolocation' {
+declare module 'react-native-baidu-map-geolocation-grove' {
   import { Component } from 'react';
 
   // 错误码常量
