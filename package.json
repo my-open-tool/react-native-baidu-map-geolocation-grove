@@ -46,12 +46,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zkgaojianjian/react-native-baidu-map-geolocation-grove.git"
+    "url": "https://github.com/my-open-tool/react-native-baidu-map-geolocation-grove.git"
   },
   "bugs": {
-    "url": "https://github.com/zkgaojianjian/react-native-baidu-map-geolocation-grove/issues"
+    "url": "https://github.com/my-open-tool/react-native-baidu-map-geolocation-grove/issues"
   },
-  "homepage": "https://github.com/zkgaojianjian/react-native-baidu-map-geolocation-grove#readme",
+  "homepage": "https://github.com/my-open-tool/react-native-baidu-map-geolocation-grove#readme",
   "files": [
     "src/",
     "android/",

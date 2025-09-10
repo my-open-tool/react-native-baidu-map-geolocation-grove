@@ -75,7 +75,7 @@ class BMapGeolocation {
     const config = { ...DEFAULT_OPTIONS, ...options }
     const coorType = 'gcj02'
 
-    console.log('📍 BMap 单次定位开始')
+    // console.log('📍 BMap 单次定位开始')
 
     // 超时处理
     const timeoutId = setTimeout(() => {
@@ -154,7 +154,7 @@ class BMapGeolocation {
     const config = { ...DEFAULT_OPTIONS, ...options }
     const coorType = 'gcj02'
 
-    console.log('📍 BMap 持续定位开始')
+    // console.log('📍 BMap 持续定位开始')
 
     // 生成唯一的监听ID
     const watchId = Date.now() + Math.random()
