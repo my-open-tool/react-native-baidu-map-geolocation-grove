@@ -1,0 +1,54 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bmap.geolocation" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+6
+7    <!-- 定位权限 -->
+8    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+8-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:6:5-79
+8-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:6:22-76
+9    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+9-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:7:5-81
+9-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:7:22-78
+10
+11    <!-- 网络权限 -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:10:5-79
+12-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:10:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:11:5-76
+13-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:11:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+14-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:12:5-76
+14-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:12:22-73
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:13:5-67
+15-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:13:22-64
+16
+17    <!-- 其他必要权限 -->
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:16:5-75
+18-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:16:22-72
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:17:5-81
+19-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:17:22-78
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:18:5-68
+20-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:18:22-65
+21
+22    <application>
+22-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:20:5-26:19
+23
+24        <!-- 声明百度地图定位服务组件 -->
+25        <service
+25-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:22:9-25:41
+26            android:name="com.baidu.location.f"
+26-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:23:13-48
+27            android:enabled="true"
+27-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:24:13-35
+28            android:process=":remote" />
+28-->/Users/mac/Documents/app/expo-dir/WeihuHrExpo/node_modules/react-native-bmap-geolocation/android/src/main/AndroidManifest.xml:25:13-38
+29    </application>
+30
+31</manifest>
